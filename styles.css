@@ -1,0 +1,14 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #c80000;
+    display: flex;
+}
+
+#header-red-part {
+    display: flex;
+    flex-direction: row;
+}
