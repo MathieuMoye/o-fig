@@ -3,12 +3,44 @@ body {
 }
 
 header {
-    width: 100%;
-    background-color: #c80000;
-    display: flex;
+    color: #ffff;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
-#header-red-part {
+
+#header-title__container {
+  background-color: #c80000;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#header-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#header-subtitle {
+    margin-left: 10px;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#header-theme__container {
+    background-color: #666;
+    padding-top: 0.3rem;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+#header-theme {
+    font-size: 1.1rem;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 500;
 }
